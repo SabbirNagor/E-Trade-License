@@ -1,0 +1,125 @@
+
+html{
+    font-family: 'SutonnyMJ';
+}body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    height:100%;
+    background-size: 100%;
+    background-image: url(../image/background.jpg);
+
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/* ================= Typography ====================== */
+.header__section--text{
+    color: white;
+    padding-bottom: 10px;
+}
+.header__section--text--one{
+    font-weight: 600;
+    font-size: 2.0em;
+}
+.header__section--text--two{
+    font-weight: 200;
+    font-size: 1.3em;
+}
+
+/* ============== Page Header ============== */
+
+.header__section--box{
+    background-color: #097ff5;
+    border-bottom: 5px solid #004df5;
+}
+.header__section--box img {
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: .2rem;
+} 
+.header__section__button{
+    display: flex;
+    justify-content: center;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+.btn {
+    background-color: #9f1da7;
+    color: white;
+}
+.header__section__button--group2{
+    border-bottom: 1px solid white; 
+    text-align: center;
+    margin-top:10px;
+    color:#f1f8fd
+}
+
+/* ============= Main Form ============== */
+.from__container{
+    margin-top: 5em;
+    margin-bottom: 5em;
+    padding: 30px;
+    background-color: #f1f8fd ;
+    border-radius: 45px;
+    display: block;
+    border: 1px solid black;
+}
+
+.from__container--signIn{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 300;
+}
+.form__container--inner{
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 3em;
+    padding-bottom: 1em;
+}
+.form__container--text{
+    padding-bottom: 2em;
+}
+
+.form__container--text a{
+    font-size: .7em; 
+}
+.form__container--text a:first-child{
+    color: crimson;
+    display: inline-block;
+}
+.form__container--text a:last-child{
+    color: rgb(68, 59, 61);
+    text-align: right;
+    display: inline-block;
+}
+.form__container--inner .btn-lg{
+    border-radius: 3.5em ;
+}
+.form__container--inner button{
+    margin-bottom: 1em;
+}
+.form__container--lastxt{
+    text-align: center;
+    color: rgb(107, 101, 101);
+}
+.creat{
+    color: rgb(49, 49, 138);
+}
+
+/* =========== Footer=========== */
+.page__footer p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
